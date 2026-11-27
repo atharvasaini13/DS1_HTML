@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>ABC College Admission 2026</title>
+</head>
+<body>
+    <header style="background-color: navy; color: white; text-align: center; padding: 10px;">
+        <h1>ABC College Admission 2026</h1>
+    </header>
+
+    <main>
+        <h2>Courses and Fees</h2>
+        <table border="1">
+            <caption>Available Courses</caption>
+            <tr>
+                <th>Course</th>
+                <th>Seats</th>
+                <th>Fees</th>
+            </tr>
+            <tr>
+                <td>B.Tech CSE</td>
+                <td>120</td>
+                <td>₹90,000</td>
+            </tr>
+            <tr>
+                <td>BCA</td>
+                <td>60</td>
+                <td>₹45,000</td>
+            </tr>
+        </table>
+
+        <form>
+            <fieldset>
+                <legend>Application Form</legend>
+                <p>
+                    <label for="student">Name:</label><br>
+                    <input type="text" id="student" required>
+                </p>
+                <p>
+                    <label for="student-email">Email:</label><br>
+                    <input type="email" id="student-email" required>
+                </p>
+                <p>
+                    <label for="student-course">Course:</label><br>
+                    <select id="student-course">
+                        <option>B.Tech CSE</option>
+                        <option>BCA</option>
+                    </select>
+                </p>
+                <p>
+                    <label for="statement">Statement:</label><br>
+                    <textarea id="statement" rows="5" cols="35"></textarea>
+                </p>
+                <button type="submit">Apply</button>
+            </fieldset>
+        </form>
+    </main>
+
+    <footer style="background-color: navy; color: white; text-align: center; padding: 5px;">
+        <p>&copy; 2026 ABC College</p>
+    </footer>
+</body>
+</html>
